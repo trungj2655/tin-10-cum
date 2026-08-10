@@ -1,6 +1,6 @@
 from bisect import bisect_left
 
-arr = [1, 2, 3, 4, 5, 4, 3]
+arr = [3, 1, 5, 2, 3, 6, 4, 5, 2, 1, 4]
 n = len(arr)
 
 inc = [0] * n
