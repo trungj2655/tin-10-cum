@@ -2,12 +2,6 @@ input_vales = list(map(int, open('CHIAMANG.INP', 'r', encoding='utf-8').read().s
 array_length = input_vales[0]
 numbers = input_vales[1:]
 
-'''
-
-sum(arr[:i]) == sum(arr[i:])
-
-'''
-
 def chiamang(numbers, output_file=None):
     total_sum = sum(numbers)
     left_sum = 0
